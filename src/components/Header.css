@@ -1,0 +1,64 @@
+.header {
+  position: fixed; /* Fijo en la pantalla */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Ocupa toda la pantalla */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centra verticalmente todo el contenido */
+  background-color: #f8f8f8;
+  text-align: center;
+  z-index: 1000; /* Siempre encima del contenido */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column; /* Foto arriba, texto debajo */
+  align-items: center;
+  margin-bottom: 30px; /* Espacio con los botones */
+}
+
+.Header__foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #f46edd;
+  object-fit: cover;
+  margin-bottom: 20px; /* Separación de la foto con el nombre */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.header h2 {
+  margin: 5px 0 20px;
+  font-size: 1.1rem;
+  color: #302f2f;
+}
+
+.nav {
+  display: flex;
+  gap: 10px; /* Espacio entre botones */
+  flex-wrap: wrap; /* Para que se acomoden en varias filas si es necesario */
+}
+
+.nav button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #cf9cc7;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.nav button:hover {
+  background-color: #eb98d2;
+}

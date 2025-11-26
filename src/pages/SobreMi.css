@@ -13,7 +13,7 @@ body, html {
 .sobre-mi {
   max-width: 800px;      /* ancho máximo para lectura cómoda */
   margin: 0 auto;        /* centrado horizontal */
-  padding: 40px 20px;    /* espacio interno */
+  padding: 10px 20px;    /* espacio interno */
   background-color: #ffffff; /* fondo suave */
 
  

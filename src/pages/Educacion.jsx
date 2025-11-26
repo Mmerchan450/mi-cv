@@ -6,12 +6,7 @@ const Educacion = () => {
   return (
     <section className="educacion">
       <h2></h2>
-      <br />
-      
-      <br />
-      <br />
-      <br />
-
+    
       <ul>
         <li>
           <span className="year">2025</span>

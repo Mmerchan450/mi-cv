@@ -16,13 +16,7 @@ const Header = () => {
         <Link to="/contacto">Contacto</Link>
       </nav>
 
-      <div className="profile">
-        <img src={foto} alt="Marta Merchan" className="header-foto" />
-        <div className="info">
-          <h1>Marta Merchan Bravo</h1>
-          <h2>Quality Assurance | Experta en Control de Software</h2>
-        </div>
-      </div>
+     
 
 
     </header>

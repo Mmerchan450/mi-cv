@@ -1,0 +1,73 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ocupa toda la pantalla */
+  color: #393535;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-content {
+  z-index: 2;
+}
+
+.foto-container {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  animation: pop 1s ease-out;
+}
+
+.foto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nombre {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 700;
+  margin: 10px 0;
+  animation: fadeIn 1.2s ease forwards;
+}
+
+.rol {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #68da7b;
+  margin-bottom: 20px;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+.linea-animada {
+  width: 80px;
+  height: 4px;
+  background-color: #48b96e;
+  margin: 20px auto 0;
+  border-radius: 2px;
+  animation: grow 1.5s ease forwards;
+}
+
+/* Animaciones */
+@keyframes pop {
+  0% { transform: scale(0); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px);}
+  100% { opacity: 1; transform: translateY(0);}
+}
+
+@keyframes grow {
+  0% { width: 0; }
+  100% { width: 80px; }
+}

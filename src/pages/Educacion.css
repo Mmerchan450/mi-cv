@@ -1,0 +1,49 @@
+.educacion {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.educacion h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.educacion ul {
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+}
+
+.educacion ul::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  bottom: 0;
+  width: 4px;
+  background-color: #007acc;
+}
+
+.educacion li {
+  position: relative;
+  padding: 15px 20px 15px 60px;
+  margin-bottom: 20px;
+}
+
+.educacion li::before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top: 15px;
+  width: 16px;
+  height: 16px;
+  background-color: #007acc;
+  border-radius: 50%;
+}
+
+.educacion .year {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 3px;
+}

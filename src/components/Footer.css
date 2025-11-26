@@ -1,0 +1,41 @@
+.footer {
+  position: fixed;       
+  bottom: 0;            
+  left: 0;              
+  width: 100%;           
+  color: #363636;
+  text-align: center;
+  padding: 15px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1000;       
+}
+
+
+.footer .socials {
+  margin-top: 8px;
+}
+
+.footer .socials a {
+  color: #2d2e2e;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer .socials a:hover {
+  color: #303131;
+}
+
+
+@media (max-width: 480px) {
+  .footer .socials {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .footer .socials a {
+    margin: 5px 0;
+  }
+}

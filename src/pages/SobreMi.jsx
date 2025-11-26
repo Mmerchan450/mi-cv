@@ -1,31 +1,32 @@
 import React from "react";
+import "./SobreMi.css";
 
 
 const SobreMi = () => {
-  return (
-    <section className="sobre-mi">
-      <h2>Sobre mí</h2>
+    return (
+        <section className="sobre-mi">
+
+
+            <h2>Sobre mí</h2>
 
       <p>
-        Soy <strong>Marta Merchan Bravo</strong>, una <strong>Quality Assurance
-        Engineer</strong> apasionada por la calidad del software. Me encanta 
-        detectar detalles que otros pasan por alto y asegurar que los productos 
-        sean fiables, intuitivos y fáciles de usar.
+        Soy <strong>Marta</strong>, <strong>Quality Assurance Engineer</strong> con experiencia en 
+        testing manual y automatizado, metodologías ágiles y herramientas modernas de control de calidad. 
+        <br />
+        Me enfoco en asegurar que el software sea confiable, funcional y fácil de usar.
       </p>
 
       <p>
-        Cuento con experiencia en <strong>testing manual y automatizado</strong>, 
-        metodologías ágiles y herramientas modernas. Disfruto trabajando en equipo 
-        para garantizar que cada lanzamiento sea impecable.
+        Disfruto trabajando en equipo, aportando valor a cada proyecto y mejorando continuamente los procesos 
+        de pruebas para garantizar productos de alta calidad.
       </p>
 
       <p>
-        Siempre busco <strong>aprender nuevas tecnologías, mejorar procesos y aportar 
-        valor</strong> en cada proyecto. Mi objetivo: que la experiencia del usuario 
-        sea excelente y sin sorpresas.
+        Mi objetivo es seguir desarrollando mis habilidades en QA y contribuir a que cada proyecto entregue 
+        una experiencia de usuario segura y satisfactoria.
       </p>
-    </section>
-  );
+        </section>
+    );
 };
-
+     <h2>Sobre mí</h2>;
 export default SobreMi;

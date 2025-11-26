@@ -1,0 +1,43 @@
+
+body, html {
+  height: 100%;           /* necesario para centrar verticalmente */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff; /* fondo opcional */
+}
+
+.sobre-mi {
+  max-width: 800px;      /* ancho máximo para lectura cómoda */
+  margin: 0 auto;        /* centrado horizontal */
+  padding: 40px 20px;    /* espacio interno */
+  background-color: #ffffff; /* fondo suave */
+
+ 
+  line-height: 1.6;      /* espacio entre líneas */
+  color: #333;           /* texto principal */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.sobre-mi h2 {
+  text-align: center;    /* título centrado */
+  font-size: 2rem;       /* tamaño del título */
+  margin-bottom: 20px;
+  color: #222;           /* un poco más oscuro que el texto */
+  border-bottom: 2px solid #ddd; /* línea decorativa debajo del título */
+  padding-bottom: 10px;
+}
+
+.sobre-mi p {
+  margin-bottom: 15px;  
+  font-size: 1.1rem;  
+  text-align: center;
+}
+
+.sobre-mi strong {
+  color: #37393a;        /* resalta nombres y títulos */
+}
